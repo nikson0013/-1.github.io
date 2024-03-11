@@ -1,0 +1,10 @@
+.features {
+    padding: 100px 140px;
+    padding-bottom: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+@import '__title/features__title';
+@import '__list/features__list';

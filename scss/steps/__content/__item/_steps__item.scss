@@ -1,0 +1,31 @@
+.steps__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-top: 2px solid $green;
+    width: 360px;
+    padding-top: 19px;
+    .steps__item-number {
+        font-size: 100px;
+        font-family: Proxima-Light;
+        color: #ececec;
+        padding-right: 15px;
+        padding-left: 5px;
+    }
+    .steps__item-text {
+        padding-top: 5px;
+        .steps__item-text-title {
+            font-size: 18px;
+            color: $bodytext;
+            font-family: Proxima-Semibold;
+            display: flex;
+        }
+        .steps__item-text-subtitle {
+            font-size: 14px;
+            color: $titletext;
+            display: flex;
+            margin-top: -8px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.footer__content-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .footer__content-contacts-title {
+        font-size: 14px;
+        color: $bodytext;
+        font-family: Proxima-Semibold;
+        margin-bottom: 7px;
+    }
+    .footer__content-contacts-number {
+        color: $green;
+        font-size: 18px;
+        font-family: Proxima-Bold;
+        margin-bottom: 2px;
+    }
+    .footer__content-contacts-subtitle {
+        color: $subtitletext;
+        font-size: 12px;
+        font-family: Proxima-Regular;
+        letter-spacing: 4%;
+    }
+}

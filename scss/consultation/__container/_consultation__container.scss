@@ -1,0 +1,20 @@
+.consultation__container {
+    width: 760px;
+    border: none;
+    border-radius: 4px;
+    background-color: white; 
+    padding: 5px;
+    height: 389px;
+    .consultation__box {
+        border: 1px dashed #D2D1D1;
+        border-radius: 4px;
+        padding: 0 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 46px;
+        height: calc(100% - 2px)
+    }
+}
+@import '__text/consultation__text';
+@import '__form/consultation__form';

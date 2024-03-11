@@ -1,0 +1,25 @@
+.content__list {
+    margin-top: 70px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    span {
+        font-family: Proxima-Semibold;
+        font-size: 24px;
+        color: $bodytext;
+    }
+    ul {
+        column-count: 2;
+        column-fill: balance;
+        float: left;
+        max-width: 570px;
+        margin-top: 22px;
+        li {
+            list-style-image: url(images/check-icon.svg);
+            color: $titletext;
+            font-size: 18px;
+            margin: 22px;
+            margin-top: 0;
+        }
+    }
+}

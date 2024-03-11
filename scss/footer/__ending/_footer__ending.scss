@@ -1,0 +1,13 @@
+.footer__ending {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding-top: 36px;
+    .footer__ending-text {
+        color: $subtitletext;
+        font-family: Proxima-Regular;
+        font-size: 12px;
+    }
+}

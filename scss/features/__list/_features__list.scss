@@ -1,0 +1,10 @@
+.features__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+@import '__section1/features__section1';
+@import '__section2/features__section2';
+@import '__item/features__item';

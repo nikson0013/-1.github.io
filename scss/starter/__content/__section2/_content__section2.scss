@@ -1,0 +1,9 @@
+.content__section2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 100%;
+}
+
+@import '__man/content__man';
+@import '__description/content__desription'

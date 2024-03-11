@@ -1,0 +1,16 @@
+.header__li {
+    white-space: nowrap;
+    z-index: 10;
+    a {
+        text-decoration: none;
+        color: $bodytext;
+        &:active, &:checked {
+            text-decoration: none;
+            color: $bodytext;
+            cursor: pointer;
+        }
+        &:hover {
+            color: #198E6B;
+        }
+    }
+}

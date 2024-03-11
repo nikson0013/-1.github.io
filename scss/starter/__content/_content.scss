@@ -1,0 +1,10 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: calc(100vh - 31px - 40px);
+}
+
+@import '__section1/content__section1';
+@import '__section2/content__section2'

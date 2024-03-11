@@ -1,0 +1,13 @@
+.footer__content {
+    padding-top: 14.1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 34px;
+    border-bottom: solid 1px #c4c4c4;
+    gap: 40px;
+}
+@import '__society/footer__content-society';
+@import '__address/footer__content-address';
+@import '__contacts/footer__content-contacts';

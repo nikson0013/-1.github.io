@@ -1,0 +1,9 @@
+.content__section1 {
+    margin-top: 103px;
+    display: flex;
+    flex-direction: column;
+}
+@import "__title/_content__title";
+@import '__subtitle/_content__subtitle';
+@import '__list/content__list';
+@import '__button/content__button'

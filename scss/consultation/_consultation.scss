@@ -1,0 +1,15 @@
+.consultation {
+    height: 555px;
+    background-image: url(images/consultation__bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center
+}
+
+@import '__man/consultation__man';
+@import '__container/consultation__container';

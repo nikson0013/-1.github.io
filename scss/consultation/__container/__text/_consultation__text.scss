@@ -1,0 +1,22 @@
+.consultation__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 55px;
+    margin: 42px 0;
+    border-right: 1px dashed #d2d1d1;
+    width: calc(373px - 35px);
+    .consultation__title {
+        font-size: 40px;
+        font-family: Proxima-Semibold;
+    }
+    .consultation__subtitle {
+        line-height: 26px;
+        font-size: 16px;
+        color: $titletext;
+        span {
+            color: $green;
+        }
+    }
+}

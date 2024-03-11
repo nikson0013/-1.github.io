@@ -1,0 +1,17 @@
+.footer__content-society {
+    font-size: 14px;
+    color: $titletext;
+    width: 258px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .footer__content-society-bank-account {
+        b {
+            color: $bodytext;
+            font-family: Proxima-Bold;
+            &:last-child {
+                margin-left: 20px;
+            }
+        }
+    }
+}

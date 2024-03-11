@@ -1,0 +1,22 @@
+.header__contacts {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    span {
+        float: right;
+        width: 70px;
+        text-align: right;
+        color: white;
+    }
+    a {
+        font-size: 22px;
+        color: white;
+        cursor: pointer;
+        &:hover {
+            color: $titletext;
+        }
+    }
+}

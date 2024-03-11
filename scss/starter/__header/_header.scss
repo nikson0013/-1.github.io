@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@import '__block/header__block';
+@import '__block/__select/header__select';
+@import "__nav/header__nav";
+@import '__block/__img/header__img';
+@import "__nav/__li/header__li";
+@import '__contacts/header__contacts';

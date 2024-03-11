@@ -1,0 +1,28 @@
+.features__item {
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    align-items: flex-start;
+    width: calc(360px - 40px);
+    img {
+        float: left;
+        padding-right: 20px;
+    }
+    .features__text {
+        display: flex;
+        flex-direction: column;
+        .features__ttl {
+            font-family: Proxima-Bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            margin-top: 8px;
+            color: $bodytext;
+        }
+        .features__subtitle {
+            font-family: Proxima-Regular;
+            font-size: 13px;
+            color: $bodytext;
+        }
+    }
+}

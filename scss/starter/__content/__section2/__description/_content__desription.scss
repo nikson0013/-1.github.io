@@ -1,0 +1,40 @@
+.content__description {
+    position: absolute;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    width: 324px;
+    right: 140px;
+    bottom: 26px;
+    padding: 16px;
+    text-align: left;
+    border: none;
+    border-radius: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    z-index: 20;
+    .content__author {
+        font-size: 18px;
+        color: $bodytext;
+        margin-bottom: 4px;
+        font-family: Proxima-Semibold;
+    }
+    .content__position {
+        font-size: 13px;
+        color: $titletext;
+        margin-bottom: 16px;
+    }
+    .content__text {
+        font-size: 13px;
+        color: $bodytext;
+        margin-bottom: 16px;
+    }
+    .content__link {
+        font-size: 16px;
+        color: $green;
+        text-decoration: underline;
+        &:hover {
+            color: $titletext;
+        }
+    }
+}

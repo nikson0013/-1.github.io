@@ -1,0 +1,17 @@
+.footer__content-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 13px;
+    width: 510px;
+    font-size: 14px;
+    padding-right: 50px;
+    .footer__content-address-title {
+        color: $bodytext;
+        font-family: Proxima-Semibold;
+    }
+    .footer__content-address-subtitle {
+        color: $titletext;
+    }
+}

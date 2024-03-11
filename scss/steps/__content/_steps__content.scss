@@ -1,0 +1,16 @@
+.steps__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    margin-top: 54px;
+    gap: 60px;
+    align-items: flex-start;
+    .steps__content-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 40px
+    }
+}
+@import '__item/steps__item';
